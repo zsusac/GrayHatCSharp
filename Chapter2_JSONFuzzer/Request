@@ -1,0 +1,12 @@
+POST http://192.168.0.22/Vulnerable.ashx HTTP/1.1
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Referer: http://192.168.0.22/
+Content-Type: application/json; charset=UTF-8
+Content-Length: 178
+Connection: keep-alive
+Cookie: ASP.NET_SessionId=C899ACF4D4415995D3E5F4A0
+Host: 192.168.0.22
+
+{"username":"test","password":"test","age":1,"line1":"test","line2":"test","city":"test","state":"test","zip":1000,"first":"test","middle":"test","last":"test","method":"create"}
